@@ -1,0 +1,35 @@
+{
+  "name": "math-pipes",
+  "version": "0.0.2",
+  "author": {
+    "name": "Jenil Sojitra",
+    "url": "https://github.com/jenilsojitra"
+  },
+  "homepage": "https://github.com/jenilsojitra/math-pipes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenilsojitra/math-pipes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jenilsojitra/math-pipes/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/math-pipes.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./fesm2022/math-pipes.mjs"
+    }
+  }
+}

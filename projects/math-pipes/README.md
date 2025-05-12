@@ -113,13 +113,11 @@ The `math-pipes` library provides a variety of pipes organized by functionality.
 | `sin` | Calculates the sine of an angle (radians).    | `{{ 0 \| sin }}` | 0      |
 | `tan` | Calculates the tangent of an angle (radians). | `{{ 0 \| tan }}` | 0      |
 
-## Contributing
+## Contact
 
-Contributions are welcome! To contribute:
+For questions, issues, or feedback, please contact Jenil Sojitra:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes with clear, descriptive messages.
-4. Submit a pull request.
-
-Please ensure your code adheres to the project's coding standards and includes tests where applicable.
+- **Email**: [jenilsojitra19@gmail.com](mailto:jenilsojitra19@gmail.com)
+- **Portfolio**: [Jenil Sojitra](https://jenilsojitra.vercel.app/)
+- **GitHub**: [jenilsojitra](https://github.com/jenilsojitra)
+- **LinkedIn**: [jenilsojitra](https://www.linkedin.com/in/jenilsojitra/)
