@@ -1,17 +1,17 @@
 {
-  "name": "math-pipes",
+  "name": "mathora",
   "version": "0.0.2",
   "author": {
     "name": "Jenil Sojitra",
     "url": "https://github.com/jenilsojitra"
   },
-  "homepage": "https://github.com/jenilsojitra/math-pipes",
+  "homepage": "https://github.com/jenilsojitra/mathora",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jenilsojitra/math-pipes.git"
+    "url": "https://github.com/jenilsojitra/mathora.git"
   },
   "bugs": {
-    "url": "https://github.com/jenilsojitra/math-pipes/issues"
+    "url": "https://github.com/jenilsojitra/mathora/issues"
   },
   "peerDependencies": {
     "@angular/common": "^19.2.0",
@@ -21,7 +21,7 @@
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "module": "fesm2022/math-pipes.mjs",
+  "module": "fesm2022/mathora.mjs",
   "typings": "index.d.ts",
   "exports": {
     "./package.json": {
@@ -29,7 +29,7 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "default": "./fesm2022/math-pipes.mjs"
+      "default": "./fesm2022/mathora.mjs"
     }
   }
 }

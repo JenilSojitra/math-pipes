@@ -85,4 +85,4 @@ import { ShortenNumberPipe } from '../pipes/developer/shorten-number.pipe';
 
   ]
 })
-export class MathPipesModule { }
+export class MathoraModule { }

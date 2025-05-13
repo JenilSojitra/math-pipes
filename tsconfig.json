@@ -8,8 +8,8 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "paths": {
-      "math-pipes": [
-        "./dist/math-pipes"
+      "mathora": [
+        "./dist/mathora"
       ]
     },
     "noImplicitReturns": true,

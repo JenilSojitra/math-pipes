@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "math-pipes": {
+    "mathora": {
       "projectType": "library",
-      "root": "projects/math-pipes",
-      "sourceRoot": "projects/math-pipes/src",
+      "root": "projects/mathora",
+      "sourceRoot": "projects/mathora/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/math-pipes/ng-package.json"
+            "project": "projects/mathora/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/math-pipes/tsconfig.lib.prod.json"
+              "tsConfig": "projects/mathora/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/math-pipes/tsconfig.lib.json"
+              "tsConfig": "projects/mathora/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/math-pipes/tsconfig.spec.json",
+            "tsConfig": "projects/mathora/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

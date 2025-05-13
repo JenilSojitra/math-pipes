@@ -28,4 +28,4 @@ export * from './pipes/developer/format-number.pipe';
 export * from './pipes/developer/math-expression.pipe';
 export * from './pipes/developer/shorten-number.pipe';
 
-export * from './lib/math-pipes.module';
+export * from './lib/mathora.module';

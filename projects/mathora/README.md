@@ -1,4 +1,4 @@
-# math-pipes
+# Mathora
 
 A collection of custom Angular pipes for mathematical operations, including arithmetic, algebra, trigonometry, rounding, statistical calculations, and developer utilities.
 
@@ -19,29 +19,29 @@ A collection of custom Angular pipes for mathematical operations, including arit
 
 ## Installation
 
-To use `math-pipes` in your Angular project, follow these steps:
+To use `mathora` in your Angular project, follow these steps:
 
 1. Install the package using npm or yarn:
 
    ```bash
-   npm install math-pipes
+   npm install mathora
    ```
 
    or
 
    ```bash
-   yarn add math-pipes
+   yarn add mathora
    ```
 
-2. Import the `MathPipesModule` in your Angular module (e.g., `app.module.ts`):
+2. Import the `MathoraModule` in your Angular module (e.g., `app.module.ts`):
 
    ```typescript
-   import { MathPipesModule } from "math-pipes";
+   import { MathoraModule } from "mathora";
 
    @NgModule({
      imports: [
        // other imports
-       MathPipesModule,
+       MathoraModule,
      ],
      // other configurations
    })
@@ -52,7 +52,7 @@ To use `math-pipes` in your Angular project, follow these steps:
 
 ## Available Pipes
 
-The `math-pipes` library provides a variety of pipes organized by functionality. Below is a detailed list of all available pipes, including descriptions and usage examples.
+The `mathora` library provides a variety of pipes organized by functionality. Below is a detailed list of all available pipes, including descriptions and usage examples.
 
 ### Algebra
 
